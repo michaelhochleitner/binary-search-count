@@ -16,5 +16,4 @@ def binary_search(a_list, item, comparisons_inner=0):
 
 
 my_list = [5, 8, 11, 15, 21, 23, 100, 223]
-index, comparisons = binary_search(my_list, 223)
-print(index, comparisons)
+print(binary_search(my_list, 223))
